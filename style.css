@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10101E;
+}
+
+.datetime{
+    color: white;
+    background-color: #93C6E7;
+    width: 380px;
+    font-family: 'Exo 2', sans-serif;
+    padding: 35px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time span:last-child{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color{
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    margin: 0 1px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.clr1{
+    background-color: #FFBF00;
+}
+
+.clr2{
+    background-color: #CF0A0A;
+}
+
+.clr3{
+    background-color: #810CA8;
+}
+
+.clr4{
+    background-color: #FF7000;
+}
